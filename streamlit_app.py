@@ -23,3 +23,11 @@ def get_data():
     data.index = sales_dates
     data.index = data.index.date
     return data
+
+st.set_page_config(layout="wide")
+
+st.title("Daily vs monthly sales, by product")
+st.markdown("This app shows the 2023 daily sales for Widget A through Widget Z.")
+
+data = get_data()
+print data
