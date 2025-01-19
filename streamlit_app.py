@@ -6,8 +6,6 @@ import string
 import time
 
 
-st.title('🎈 App Name')
-
 @st.cache_data
 def get_data():
     """Generate random sales data for Widget A through Widget Z"""
